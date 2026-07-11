@@ -10,6 +10,11 @@
       <stop offset="0" stop-color="#d4af37" stop-opacity="0.3"/>
       <stop offset="1" stop-color="#d4af37"/>
     </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d4af37" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </linearGradient>
     <pattern id="marks" width="56" height="56" patternUnits="userSpaceOnUse">
       <path d="M28 22v12M22 28h12" stroke="#d4af37" stroke-opacity="0.16" stroke-width="1.2" fill="none"/>
       <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="56 56" dur="14s" repeatCount="indefinite"/>
@@ -32,18 +37,35 @@
     @keyframes cyc { 0% { opacity: 0; } 4%, 21% { opacity: 1; } 25%, 100% { opacity: 0; } }
     .pulse { animation: pulse 1.6s ease-in-out infinite; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+    .rise { animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both; }
+    .rise2 { animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both; }
+    @keyframes rise { from { transform: translateY(34px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
   </style>
   <g clip-path="url(#wave)">
     <rect width="1200" height="260" fill="#14130f"/>
     <rect width="1200" height="260" fill="url(#marks)"/>
     <rect width="8" height="260" fill="url(#rail)"/>
-    <text x="64" y="108" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1" fill="#f0ede3">SHIP IT.</text>
-    <text x="356" y="108" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1" fill="url(#foil)">PROVE IT.</text>
+    <g class="rise">
+      <text x="64" y="108" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1" fill="#f0ede3">SHIP IT.</text>
+    </g>
+    <g class="rise2">
+      <text x="356" y="108" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1" fill="url(#foil)">PROVE IT.</text>
+    </g>
     <text class="line l1" x="64" y="152">ABHISHEK SMITHA BIJU — ENGINEER &amp; FOUNDER</text>
     <text class="line l2" x="64" y="152">FOUNDER @ VERSOR · 5 PAYING RESTAURANTS</text>
     <text class="line l3" x="64" y="152">SWE INTERN @ FOURKITES · PLAYWRIGHT AUTOMATION</text>
     <text class="line l4" x="64" y="152">CODEFORCES SPECIALIST · 265+ PROBLEMS SOLVED</text>
     <rect class="pulse" x="64" y="176" width="9" height="9" fill="#3ecf8e"/>
     <text x="84" y="185" font-family="'Courier New', ui-monospace, monospace" font-size="13" letter-spacing="3" fill="#d4af37">OPEN TO SWE INTERNSHIPS</text>
+    <rect x="0" y="0" width="70" height="260" fill="url(#scan)">
+      <animateTransform attributeName="transform" type="translate" from="-80 0" to="1240 0" dur="7s" repeatCount="indefinite"/>
+    </rect>
   </g>
+  <path fill="none" stroke="#d4af37" stroke-opacity="0.5" stroke-width="1.5"
+    d="M1200 218C900 258 700 190 400 226C250 244 120 210 0 232">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M1200 218C900 258 700 190 400 226C250 244 120 210 0 232;
+              M1200 230C920 196 680 250 420 210C240 190 140 246 0 214;
+              M1200 218C900 258 700 190 400 226C250 244 120 210 0 232"/>
+  </path>
 </svg>

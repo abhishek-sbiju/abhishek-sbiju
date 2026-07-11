@@ -4,14 +4,11 @@
 
 Third-year CS at **BITS Pilani, Goa** — builder first, student second. I founded [**Versor**](https://versor.in), a smart-menu platform running in five paying restaurants, and I'm currently a software engineer intern at **FourKites**, building the engine that turns recorded VirtuosoQA journeys into runnable Playwright tests. One standard for all of it: **if it isn't verified, it isn't done.**
 
-```ts
-test('abhishek smitha biju', () => {
-  expect(role).toBe('engineer & founder')
-  expect(fourkites).toMigrate('virtuoso → playwright')
-  expect(versor.customers).toBeGreaterThan(4)
-  expect(codeforces.rating).toBeGreaterThan(1500) // specialist · 265+ solved
-}) // ✓ 4 passed
-```
+<a href="https://abhishek-sbiju.github.io">
+<img src="spec.svg" alt="portfolio.spec.ts — engineer & founder, virtuoso → playwright at FourKites, 5 Versor customers, Codeforces Specialist: 4 passed" width="100%" />
+</a>
+
+<img src="divider.svg" alt="" width="100%" />
 
 ### Now
 
@@ -27,6 +24,8 @@ test('abhishek smitha biju', () => {
 | **Restaurant client fleet** | ~12 production builds that owners run end to end without a developer | Next.js · React · Vite |
 | [**SpaceSaber**](https://github.com/abhishek-sbiju/SpaceSaber) | 2D space shooter — six enemy types, custom pathfinding, a soundtrack per level | Unity · C# |
 | [**abhishek-sbiju.github.io**](https://abhishek-sbiju.github.io) | My portfolio — live Codeforces rating and GitHub stats, no stale numbers | React · Vite · Tailwind |
+
+<img src="divider.svg" alt="" width="100%" />
 
 ### Proof of work
 
