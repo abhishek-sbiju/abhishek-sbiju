@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" role="img" aria-label="">
+  <defs>
+    <pattern id="marksf" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M28 22v12M22 28h12" stroke="#d4af37" stroke-opacity="0.16" stroke-width="1.2" fill="none"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="56 56" dur="14s" repeatCount="indefinite"/>
+    </pattern>
+    <clipPath id="wavef">
+      <path d="M0 120H1200V30C920 -4 660 46 410 18C240 0 130 36 0 22Z">
+        <animate attributeName="d" dur="9s" repeatCount="indefinite"
+          values="M0 120H1200V30C920 -4 660 46 410 18C240 0 130 36 0 22Z;
+                  M0 120H1200V16C900 44 680 -2 420 30C250 48 120 8 0 34Z;
+                  M0 120H1200V30C920 -4 660 46 410 18C240 0 130 36 0 22Z"/>
+      </path>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#wavef)">
+    <rect width="1200" height="120" fill="#14130f"/>
+    <rect width="1200" height="120" fill="url(#marksf)"/>
+  </g>
+</svg>
