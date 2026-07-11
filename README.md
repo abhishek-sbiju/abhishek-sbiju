@@ -1,7 +1,9 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=14130f&text=SHIP%20IT.%20PROVE%20IT.&fontColor=D4AF37&fontSize=52&fontAlignY=35&desc=Abhishek%20Smitha%20Biju%20%E2%80%94%20Engineer%20%26%20Founder&descSize=16&descAlignY=55&animation=fadeIn&section=header" alt="Ship it. Prove it. — Abhishek Smitha Biju" width="100%" />
+
 <div align="center">
 
 <a href="https://abhishek-sbiju.github.io">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=34&duration=2600&pause=800&color=D4AF37&center=true&vCenter=true&width=760&height=64&lines=SHIP+IT.+PROVE+IT.;Hey%2C+I%27m+Abhishek+Smitha+Biju.;Founder+%40+Versor+%C2%B7+SWE+Intern+%40+FourKites;Codeforces+Specialist+%C2%B7+265%2B+problems+solved" alt="Ship it. Prove it. — Abhishek Smitha Biju" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=800&color=D4AF37&center=true&vCenter=true&width=760&height=52&lines=Third-year+CS+%40+BITS+Pilani%2C+Goa;Founder+%40+Versor+%C2%B7+5+paying+restaurants;SWE+Intern+%40+FourKites+%C2%B7+Playwright+automation;Codeforces+Specialist+%C2%B7+265%2B+problems+solved" alt="Founder @ Versor · SWE Intern @ FourKites · Codeforces Specialist" />
 </a>
 
 </div>
@@ -32,6 +34,12 @@ test('abhishek smitha biju', () => {
 | [**SpaceSaber**](https://github.com/abhishek-sbiju/SpaceSaber) | 2D space shooter — six enemy types, custom pathfinding, a soundtrack per level | Unity · C# |
 | [**abhishek-sbiju.github.io**](https://abhishek-sbiju.github.io) | My portfolio — live Codeforces rating and GitHub stats, no stale numbers | React · Vite · Tailwind |
 
+### Proof of work
+
+<a href="https://github.com/abhishek-sbiju">
+<img src="https://ghchart.rshah.org/d4af37/abhishek-sbiju" alt="Contribution calendar for abhishek-sbiju" width="100%" />
+</a>
+
 > [!NOTE]
 > Most of my work is client software in private repos (17 of them) — the [portfolio](https://abhishek-sbiju.github.io) has the full tour. Source available on request.
 
@@ -40,3 +48,5 @@ test('abhishek smitha biju', () => {
 [**abhishekbijuw2005@gmail.com**](mailto:abhishekbijuw2005@gmail.com) · [Portfolio](https://abhishek-sbiju.github.io) · [LinkedIn](https://www.linkedin.com/in/abhishek-smitha-biju-7a739b321) · [Codeforces](https://codeforces.com/profile/Abhishek_S_Biju)
 
 <div align="center"><sub><code>designed & built by me · chennai & goa, india</code></sub></div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=14130f&section=footer" alt="" width="100%" />
