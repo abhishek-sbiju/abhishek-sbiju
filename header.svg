@@ -1,71 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Ship it. Prove it. — Abhishek Smitha Biju">
-  <defs>
-    <linearGradient id="foil" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8f7317"/>
-      <stop offset="0.5" stop-color="#f1d97a"/>
-      <stop offset="1" stop-color="#8f7317"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1.2 0" to="1.2 0" dur="3.6s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#d4af37" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#d4af37"/>
-    </linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#d4af37" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#d4af37" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="marks" width="56" height="56" patternUnits="userSpaceOnUse">
-      <path d="M28 22v12M22 28h12" stroke="#d4af37" stroke-opacity="0.16" stroke-width="1.2" fill="none"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="56 56" dur="14s" repeatCount="indefinite"/>
-    </pattern>
-    <clipPath id="wave">
-      <path d="M0 0H1200V218C900 258 700 190 400 226C250 244 120 210 0 232Z">
-        <animate attributeName="d" dur="9s" repeatCount="indefinite"
-          values="M0 0H1200V218C900 258 700 190 400 226C250 244 120 210 0 232Z;
-                  M0 0H1200V230C920 196 680 250 420 210C240 190 140 246 0 214Z;
-                  M0 0H1200V218C900 258 700 190 400 226C250 244 120 210 0 232Z"/>
-      </path>
-    </clipPath>
-  </defs>
-  <style>
-    .line { font-family: 'Courier New', ui-monospace, monospace; font-size: 16px; letter-spacing: 3px; fill: #a49d89; opacity: 0; }
-    .l1 { animation: cyc 12s linear infinite; }
-    .l2 { animation: cyc 12s linear infinite 3s; }
-    .l3 { animation: cyc 12s linear infinite 6s; }
-    .l4 { animation: cyc 12s linear infinite 9s; }
-    @keyframes cyc { 0% { opacity: 0; } 4%, 21% { opacity: 1; } 25%, 100% { opacity: 0; } }
-    .pulse { animation: pulse 1.6s ease-in-out infinite; }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
-    .rise { animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both; }
-    .rise2 { animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both; }
-    @keyframes rise { from { transform: translateY(34px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-  </style>
-  <g clip-path="url(#wave)">
-    <rect width="1200" height="260" fill="#14130f"/>
-    <rect width="1200" height="260" fill="url(#marks)"/>
-    <rect width="8" height="260" fill="url(#rail)"/>
-    <g class="rise">
-      <text x="64" y="108" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1" fill="#f0ede3">SHIP IT.</text>
-    </g>
-    <g class="rise2">
-      <text x="356" y="108" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1" fill="url(#foil)">PROVE IT.</text>
-    </g>
-    <text class="line l1" x="64" y="152">ABHISHEK SMITHA BIJU — ENGINEER &amp; FOUNDER</text>
-    <text class="line l2" x="64" y="152">FOUNDER @ VERSOR · 5 PAYING RESTAURANTS</text>
-    <text class="line l3" x="64" y="152">SWE INTERN @ FOURKITES · PLAYWRIGHT AUTOMATION</text>
-    <text class="line l4" x="64" y="152">CODEFORCES SPECIALIST · 265+ PROBLEMS SOLVED</text>
-    <rect class="pulse" x="64" y="176" width="9" height="9" fill="#3ecf8e"/>
-    <text x="84" y="185" font-family="'Courier New', ui-monospace, monospace" font-size="13" letter-spacing="3" fill="#d4af37">OPEN TO SWE INTERNSHIPS</text>
-    <rect x="0" y="0" width="70" height="260" fill="url(#scan)">
-      <animateTransform attributeName="transform" type="translate" from="-80 0" to="1240 0" dur="7s" repeatCount="indefinite"/>
-    </rect>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Abhishek Smitha Biju — Software engineer and founder</title>
+  <desc id="desc">Building web products, learning tools and games. Founder of Versor. Computer science at BITS Pilani, Goa.</desc>
+  <rect width="1200" height="390" rx="16" fill="#142536"/>
+  <path d="M810 0V390M900 0V390M990 0V390M1080 0V390M1170 0V390M780 75H1200M780 165H1200M780 255H1200M780 345H1200" stroke="#263b4c" stroke-width="1"/>
+  <rect x="54" y="53" width="42" height="5" rx="2" fill="#e6c56e"/>
+  <text x="54" y="118" fill="#c4d2dd" font-family="Segoe UI,Arial,sans-serif" font-size="23">Software engineer &amp; founder</text>
+  <text x="50" y="197" fill="#f4f6f7" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="700" letter-spacing="-2">Abhishek</text>
+  <text x="50" y="267" fill="#f4f6f7" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="700" letter-spacing="-2">Smitha Biju</text>
+  <text x="54" y="330" fill="#c4d2dd" font-family="Segoe UI,Arial,sans-serif" font-size="21">Web products. Learning tools. Games.</text>
+  <path d="M780 102H850V192H960V282H1110" stroke="#e6c56e" stroke-width="3" fill="none"/>
+  <path d="M850 192H780M960 192V102H1110M960 282H850V330" stroke="#799db7" stroke-width="2" fill="none"/>
+  <g fill="#142536" stroke="#e6c56e" stroke-width="3">
+    <circle cx="850" cy="102" r="7"/><circle cx="850" cy="192" r="7"/><circle cx="960" cy="192" r="7"/><circle cx="960" cy="282" r="7"/>
   </g>
-  <path fill="none" stroke="#d4af37" stroke-opacity="0.5" stroke-width="1.5"
-    d="M1200 218C900 258 700 190 400 226C250 244 120 210 0 232">
-    <animate attributeName="d" dur="9s" repeatCount="indefinite"
-      values="M1200 218C900 258 700 190 400 226C250 244 120 210 0 232;
-              M1200 230C920 196 680 250 420 210C240 190 140 246 0 214;
-              M1200 218C900 258 700 190 400 226C250 244 120 210 0 232"/>
-  </path>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#f4f6f7">
+    <rect x="980" y="75" width="160" height="52" rx="8" fill="#20394d"/><text x="1003" y="108">Products</text>
+    <rect x="980" y="255" width="160" height="52" rx="8" fill="#20394d"/><text x="1003" y="288">Play &amp; learn</text>
+  </g>
 </svg>
